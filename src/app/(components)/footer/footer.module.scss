@@ -1,0 +1,133 @@
+.footerWrapper {
+  background: #222324;
+  width: 100%;
+}
+
+.footer {
+  padding-top: 120px;
+  padding-bottom: 24px;
+  background: #222324;
+  display: grid;
+  position: relative;
+  grid: ". ctitle . " ". contact . " " . . ." ". ntitle . " ". nav . " ". . ." ". social ." ". . . " ". logo ." ". . ." ". privacy .";
+  grid-template-columns: auto 190px auto;
+  grid-template-rows: auto auto 24px auto auto 36px auto 80px auto 40px 40px;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    grid:". ctitle . ntitle . logo ." ". contact . nav .  . ." ". . . . . . ." ". social . . . . ." ". . . . . . ." "privacy privacy privacy privacy privacy privacy privacy";
+    grid-template-columns: 16px auto 80px auto 80px auto 16px;
+    grid-template-rows: auto auto 48px auto 40px 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .footer {
+    grid:" ctitle . ntitle . logo " " contact . nav .  . " " . . . . . " " social . . . . " " . . . . . " "privacy privacy privacy privacy privacy";
+    grid-template-columns: 200px 80px 200px 80px auto;
+    grid-template-rows: auto auto 48px auto 40px 40px;
+  }
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 16px;
+  padding-right: 16px
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 944px
+  }
+}
+
+.title {
+  color: #fff;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 24px;
+  justify-content: center;
+}
+
+.title::after {
+  content: "";
+  height: 4px;
+  background-color: #fff;
+  flex: 1;
+  margin-left: 8px;
+  position: relative;
+  top: -6px
+}
+
+.footContact {
+  grid-area: contact;
+  padding-left: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footContact a:first-child {
+  margin-bottom: 12px;
+}
+
+.regCaptionReversed {
+  font: normal 13px/20px Roboto, sans-serif;
+  color: #fff;
+}
+
+.regHeading {
+  grid-area: ntitle;
+  color: #fff;
+}
+
+.dnsSubheadingReversed {
+  font: 600 13px/20px Roboto, sans-serif;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footerNav {
+  display: flex;
+  flex-direction: column;
+  grid-area: nav;
+  padding-left: 8px;
+}
+
+.CompanyTitle {
+  grid-area: ntitle;
+}
+
+.headerLogoReversed {
+  grid-area: logo;
+}
+
+.footerSocial {
+  grid-area: social;
+  display: flex;
+}
+
+.footerBtn {
+  margin: 0 0 24px 0;
+}
+
+.footerPrivacyPolicy {
+  color: #fff;
+  line-height: 1.4em;
+  font-size: 11px;
+  grid-area: privacy;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+}
+
+.underLine  {
+  text-decoration: underline;
+}

@@ -1,9 +1,10 @@
 import React from 'react';
 import styles from "./header.module.scss";
+import classNames from "classnames";
 
-export const HeaderLogo: React.FC<any> = () => {
+export const HeaderLogo: React.FC<{ className }> = (props) => {
   return (
-    <div className={styles.logo}>
+    <div className={classNames(styles.logo, props.className)}>
       <a
         href="/"
       >
