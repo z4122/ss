@@ -1,14 +1,20 @@
-.bannerHeader {
+.bannerWrapper {
     position: fixed;
     top: 0;
     height: 60px;
     width: 100%;
+    background-color: #222324;
+}
+
+.bannerHeader {
     padding: 0 16px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
     background-color: #222324;
+    margin: 0 auto;
+    max-width: 944px;
 }
 
 
@@ -54,6 +60,10 @@
     display: flex;
     align-items: center;
     height: 100%;
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
 }
 
 .navLink:hover {

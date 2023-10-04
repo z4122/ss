@@ -1,0 +1,33 @@
+.homeCta {
+  height: 412px;
+  display: flex;
+  align-items: center
+}
+
+@media (min-width: 768px) {
+  .homeCta {
+    height:500px
+  }
+}
+
+@media (min-width: 992px) {
+  .homeCta {
+    height:865px
+  }
+}
+
+.sectionSplitText {
+  text-align:left;
+  width: 60%
+}
+
+.ctaButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 40%;
+}
+
+.ctaButtons div:last-child {
+  margin-left: 24px
+}

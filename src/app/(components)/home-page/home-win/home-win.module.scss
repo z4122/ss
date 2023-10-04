@@ -1,0 +1,101 @@
+.homeWin {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .homeWin {
+    height:650px
+  }
+}
+
+@media (min-width: 992px) {
+  .homeWin {
+    height:860px
+  }
+}
+
+@media (min-width: 768px) {
+  .section-split {
+    max-width:720px
+  }
+}
+
+@media (min-width: 992px) {
+  .container,.section-split {
+    max-width:944px
+  }
+}
+
+.btnGreen {
+  background: #d6ff00;
+  border-radius: 3px 3px 3px 3px;
+  border: 1px solid #a9c809;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .2);
+  padding: 8px 16px;
+  text-decoration: none;
+  display: inline-block;
+  color: #000;
+}
+
+.sectionHeaderReversed {
+  color: #222324;
+}
+
+.sectionTitleReversed {
+  color: #222324;
+}
+
+.sectionTextReversed {
+  color: #222324;
+}
+
+.sectionSplitImage {
+  flex: 5;
+  order: 2;
+  height: 230px;
+  margin: 40px 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .sectionSplitImage {
+    height: 100%;
+    margin: auto
+  }
+}
+
+.sectionSplitImage:after {
+  display: block;
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-size: contain;
+  background-image: url(https://a1.prod.2nd.io/website/public/assets/images/00Homepage/03WinMoreGames/01Small.png?background=transparent);
+  width: 362px;
+  height: 230px
+}
+
+@media (min-width: 768px) {
+  .sectionSplitImage:after {
+    background-image: url(https://a1.prod.2nd.io/website/public/assets/images/00Homepage/03WinMoreGames/02Medium.png?background=transparent);
+    width: 463px;
+    height: 531px;
+    transform: none;
+    left: 0
+  }
+}
+
+@media (min-width: 992px) {
+  .sectionSplitImage:after {
+    background-image: url(https://a1.prod.2nd.io/website/public/assets/images/00Homepage/03WinMoreGames/03Large.png?background=transparent);
+    width: 1109px;
+    height: 800px;
+    left: 75px
+  }
+}

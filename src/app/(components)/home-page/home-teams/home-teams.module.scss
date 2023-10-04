@@ -1,0 +1,67 @@
+.homeTeams {
+  height: 515px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+@media (min-width: 768px) {
+  .homeTeams {
+    height:515px
+  }
+}
+
+@media (min-width: 992px) {
+  .homeTeams {
+    height:592px
+  }
+}
+
+.splitContent {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+}
+
+.splitContentTitle {
+  margin-bottom: 24px;
+  color: #fff;
+  font-family: Barlow, sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.splitContentText {
+  display: block;
+  line-height: 24px;
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-feature-settings: normal;
+}
+
+.splitContentBtnWrapper {
+  margin-top: 40px;
+}
+
+.splitContentBtn {
+  border-radius: 3px 3px 3px 3px;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: inline-block;
+  background: #ff2249;
+  border: 1px solid #c8223f;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.2);
+}
+
+.splitImage {
+  flex: 5;
+  position: relative;
+  padding: 0 16px;
+  height: 370px
+}
