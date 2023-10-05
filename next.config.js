@@ -8,6 +8,12 @@ const nextConfig = {
                 port: '',
                 pathname: '**',
             },
+            {
+                protocol: 'https',
+                hostname: 'a1.prod.2nd.io',
+                port: '',
+                pathname: '**',
+            }
         ],
     },
 }

@@ -1,0 +1,20 @@
+.listLower {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+  margin: 5px 24px 20px;
+}
+
+.regHeading {
+  text-decoration: none;
+  display: flex;
+  margin-bottom: 44px;
+  font: 700 20px/28px Barlow,sans-serif;
+  color: #000;
+}
+
+.regBody {
+  font: normal 16px/24px Roboto,sans-serif;
+  color: #000;
+}

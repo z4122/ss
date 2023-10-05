@@ -1,0 +1,169 @@
+.pressPage {
+  width: 100%;
+  margin-top: 60px;
+  margin-left: 44px;
+  margin-right: 44px;
+}
+
+.list {
+  text-align: left;
+  display: block;
+  margin: auto
+}
+
+@media (min-width: 768px) {
+  .list {
+    max-width: 768px
+  }
+}
+
+@media (min-width: 992px) {
+  .list {
+    max-width: 992px
+  }
+}
+
+.pageTitle {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 52px;
+  padding-top: 94px
+}
+
+@media (min-width: 768px) {
+  .pageTitle {
+    padding-top: 150px;
+    color: #222324;
+    font-size: 80px;
+    line-height: 88px
+  }
+}
+
+@media (min-width: 992px) {
+  .pageTitle {
+    padding-top: 202px
+  }
+}
+
+.regHeading {
+  font: 700 20px/28px Barlow, sans-serif;
+  color: #000
+}
+
+.pageTitleSecondary {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  padding-top: 16px;
+  padding-bottom: 40px
+}
+
+@media (min-width: 768px) {
+  .pageTitleSecondary {
+    font-size: 41px;
+    line-height: 52px
+  }
+}
+
+.blogRow {
+  margin: 172px auto 100px;
+  display: grid
+}
+
+@media (min-width: 768px) {
+  .blogRow {
+    grid-template-columns:1fr 1fr;
+    grid-column-gap: 40px;
+    margin-top: 200px;
+    max-width: 768px
+  }
+}
+
+@media (min-width: 992px) {
+  .blogRow {
+    max-width:992px
+  }
+}
+
+.rowItem {
+  display: flex;
+  height: auto;
+  opacity: 1;
+  margin-bottom: 40px;
+  transition: opacity .5s ease-in-out;
+  background-color: #fff
+}
+
+.rowItem:hover {
+  box-shadow: 0 8px 20px 0 rgba(34,35,36,.25);
+}
+
+.rowLink {
+  transition: all .5s ease;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  width: 100%;
+  filter: grayscale(100%)
+}
+
+.rowLink:hover {
+  filter: none;
+
+}
+
+.rowImage {
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 200px;
+  margin-bottom: 15px
+}
+
+@media (min-width: 320px) {
+  .rowImage {
+    height:200px
+  }
+}
+
+@media (min-width: 768px) {
+  .rowImage {
+    height:180px
+  }
+}
+
+.listLower {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+  margin: 5px 24px 20px;
+}
+
+.regHeading {
+  text-decoration: none;
+  display: flex;
+  margin-bottom: 44px;
+  font: 700 20px/28px Barlow,sans-serif;
+  color: #000;
+}
+
+.regBody {
+  font: normal 16px/24px Roboto,sans-serif;
+  color: #000;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.btnGrey{
+  margin-bottom: 100px;
+  cursor: pointer;
+  text-decoration: none;
+  background: #f1f5f5;
+  border-radius: 3px 3px 3px 3px;
+  border: 1px solid #bfc6c8;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.2);
+  padding: 8px 16px;
+  display: inline-block;
+}
