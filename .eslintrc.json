@@ -1,3 +1,20 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "spaced-comment": 2,
+    //注释风格要不要有空格什么的
+    "space-before-blocks": 2,
+    // if function等的大括号之前需要有空格
+    "space-infix-ops": 2,
+    "no-irregular-whitespace": 2,
+    //不规则的空白不允许
+    "no-trailing-spaces": 2,
+    //一行结束后面有空格就发出警告
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    // 以方括号取对象属性时，[ 后面和 ] 前面是否需要空格, 可选参数 never, always
+    "computed-property-spacing": [2,"never"]
+  }
 }

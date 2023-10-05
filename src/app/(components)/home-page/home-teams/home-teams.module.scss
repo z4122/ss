@@ -9,13 +9,13 @@
 
 @media (min-width: 768px) {
   .homeTeams {
-    height:515px
+    height: 515px;
   }
 }
 
 @media (min-width: 992px) {
   .homeTeams {
-    height:592px
+    height: 592px;
   }
 }
 
@@ -56,12 +56,12 @@
   display: inline-block;
   background: #ff2249;
   border: 1px solid #c8223f;
-  box-shadow: 0 1px 4px 0 rgba(0,0,0,.2);
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
 .splitImage {
   flex: 5;
   position: relative;
   padding: 0 16px;
-  height: 370px
+  height: 370px;
 }

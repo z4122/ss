@@ -50,7 +50,9 @@
   border-radius: var(--border-radius);
   background: rgba(var(--card-rgb), 0);
   border: 1px solid rgba(var(--card-border-rgb), 0);
-  transition: background 200ms, border 200ms;
+  transition:
+    background 200ms,
+    border 200ms;
 }
 
 .card span {
@@ -96,7 +98,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
@@ -224,5 +226,33 @@
   }
   to {
     transform: rotate(0deg);
+  }
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 16px;
+}
+
+@media (min-width: 320px) {
+  .container {
+    padding: 0;
+  }
+
+  .container {
+    max-width: 288px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 944px;
   }
 }

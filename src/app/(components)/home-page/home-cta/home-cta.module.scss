@@ -1,24 +1,24 @@
 .homeCta {
   height: 412px;
   display: flex;
-  align-items: center
+  align-items: center;
 }
 
 @media (min-width: 768px) {
   .homeCta {
-    height:500px
+    height: 500px;
   }
 }
 
 @media (min-width: 992px) {
   .homeCta {
-    height:865px
+    height: 865px;
   }
 }
 
 .sectionSplitText {
-  text-align:left;
-  width: 60%
+  text-align: left;
+  width: 60%;
 }
 
 .ctaButtons {
@@ -29,5 +29,5 @@
 }
 
 .ctaButtons div:last-child {
-  margin-left: 24px
+  margin-left: 24px;
 }

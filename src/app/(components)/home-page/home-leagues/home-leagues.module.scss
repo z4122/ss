@@ -9,13 +9,13 @@
 @media (min-width: 768px) {
   .homeLeagues {
     height: 760px;
-    margin-bottom: 0
+    margin-bottom: 0;
   }
 }
 
 @media (min-width: 992px) {
   .homeLeagues {
-    height: 980px
+    height: 980px;
   }
 }
 
@@ -40,7 +40,7 @@
   background-repeat: no-repeat;
   width: 344px;
   height: 247px;
-  background-image: url(https://www.secondspectrum.com/assets/images/00Homepage/02EngageViewers/01Small.png?background=transparent)
+  background-image: url(https://www.secondspectrum.com/assets/images/00Homepage/02EngageViewers/01Small.png?background=transparent);
 }
 
 @media (min-width: 768px) {
@@ -51,9 +51,23 @@
     width: 819px;
     height: 100%;
     background-repeat: no-repeat;
-    background-position: 560px 276px, 546px 260px, 96px 148px, 56px 120px, 50% 50%;
-    background-size: 166px 358px, 191px 385px, 531px 397px, 620px 450px, 819px 528px;
-    background-image: url(https://a1.prod.2nd.io/website/public/assets/images/00Homepage/02EngageViewers/02Medium/iPhoneScreen01.jpg), url(https://a1.prod.2nd.io/website/public/assets/images/00Homepage/02EngageViewers/02Medium/BlankiPhone01.png?background=transparent), url(https://a1.prod.2nd.io/website/public/assets/images/00Homepage/02EngageViewers/02Medium/iPadScreen01.jpg), url(https://a1.prod.2nd.io/website/public/assets/images/00Homepage/02EngageViewers/02Medium/BlankiPad01.png?background=transparent), url(https://a1.prod.2nd.io/website/public/assets/images/00Homepage/02EngageViewers/02Medium/02Back01.svg)
+    background-position:
+      560px 276px,
+      546px 260px,
+      96px 148px,
+      56px 120px,
+      50% 50%;
+    background-size:
+      166px 358px,
+      191px 385px,
+      531px 397px,
+      620px 450px,
+      819px 528px;
+    background-image: url(https://a1.prod.2nd.io/website/public/assets/images/00Homepage/02EngageViewers/02Medium/iPhoneScreen01.jpg),
+      url(https://a1.prod.2nd.io/website/public/assets/images/00Homepage/02EngageViewers/02Medium/BlankiPhone01.png?background=transparent),
+      url(https://a1.prod.2nd.io/website/public/assets/images/00Homepage/02EngageViewers/02Medium/iPadScreen01.jpg),
+      url(https://a1.prod.2nd.io/website/public/assets/images/00Homepage/02EngageViewers/02Medium/BlankiPad01.png?background=transparent),
+      url(https://a1.prod.2nd.io/website/public/assets/images/00Homepage/02EngageViewers/02Medium/02Back01.svg);
   }
 }
 
@@ -64,9 +78,23 @@
     left: auto;
     right: 0;
     background-repeat: no-repeat;
-    background-position: 680px 190px, 664px 174px, 114px 34px, 64px 0, 100% 50%;
-    background-size: 201px 434px, 231px 465px, 642px 481px, 750px 545px, 975px 639px;
-    background-image: url(https://a1.prod.2nd.io/website/public/assets/images/00Homepage/02EngageViewers/03Large/iPhoneScreen01.jpg), url(https://a1.prod.2nd.io/website/public/assets/images/00Homepage/02EngageViewers/03Large/BlankiPhone01.png?background=transparent), url(https://a1.prod.2nd.io/website/public/assets/images/00Homepage/02EngageViewers/03Large/iPadScreen01.jpg), url(https://a1.prod.2nd.io/website/public/assets/images/00Homepage/02EngageViewers/03Large/BlankiPad01.png?background=transparent), url(https://a1.prod.2nd.io/website/public/assets/images/00Homepage/02EngageViewers/03Large/02Back01.svg)
+    background-position:
+      680px 190px,
+      664px 174px,
+      114px 34px,
+      64px 0,
+      100% 50%;
+    background-size:
+      201px 434px,
+      231px 465px,
+      642px 481px,
+      750px 545px,
+      975px 639px;
+    background-image: url(https://a1.prod.2nd.io/website/public/assets/images/00Homepage/02EngageViewers/03Large/iPhoneScreen01.jpg),
+      url(https://a1.prod.2nd.io/website/public/assets/images/00Homepage/02EngageViewers/03Large/BlankiPhone01.png?background=transparent),
+      url(https://a1.prod.2nd.io/website/public/assets/images/00Homepage/02EngageViewers/03Large/iPadScreen01.jpg),
+      url(https://a1.prod.2nd.io/website/public/assets/images/00Homepage/02EngageViewers/03Large/BlankiPad01.png?background=transparent),
+      url(https://a1.prod.2nd.io/website/public/assets/images/00Homepage/02EngageViewers/03Large/02Back01.svg);
   }
 }
 
@@ -74,7 +102,7 @@
   background: #e307b9;
   border-radius: 3px 3px 3px 3px;
   border: 1px solid #b30e93;
-  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .2);
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
   padding: 8px 16px;
   text-decoration: none;
 }
