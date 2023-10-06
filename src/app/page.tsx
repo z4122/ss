@@ -8,7 +8,7 @@ export default function Home() {
     <main className={styles.main}>
       <BannerHeader isDark={true} />
       <HomePage />
-      <Footer />
+      <Footer isDark={true}/>
     </main>
   );
 }

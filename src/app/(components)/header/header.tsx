@@ -29,8 +29,18 @@ export const BannerHeader: React.FC<{ isDark: boolean }> = (props) => {
   }, [enterWorkTitleBar, enterWorkSubMenu]);
 
   return (
-    <div className={styles.bannerWrapper}>
-      <div className={styles.bannerHeader}>
+    <div
+      className={classNames(
+        styles.bannerWrapper,
+        isDark ? styles.bannerWrapperReversed : null,
+      )}
+    >
+      <div
+        className={classNames(
+          styles.bannerHeader,
+          isDark ? styles.bannerHeaderReversed : null,
+        )}
+      >
         <HeaderLogo isDark={isDark} />
 
         {/* function items */}
@@ -39,7 +49,11 @@ export const BannerHeader: React.FC<{ isDark: boolean }> = (props) => {
             <ul>
               <li>
                 <a
-                  className={classNames(styles.navLink, styles.hasSubNav)}
+                  className={classNames(
+                    styles.navLink,
+                    styles.hasSubNav,
+                    isDark ? styles.navLinkReversed : null,
+                  )}
                   href="/"
                   onMouseEnter={() => {
                     setEnterCareerTitleBar(true);
@@ -54,7 +68,10 @@ export const BannerHeader: React.FC<{ isDark: boolean }> = (props) => {
                 {/* subMenu*/}
                 {showCareersSubMenu && (
                   <div
-                    className={styles.subMenu}
+                    className={classNames(
+                      styles.subMenu,
+                      isDark ? styles.subMenuReversed : null,
+                    )}
                     onMouseEnter={() => {
                       setEnterCareerSubMenu(true);
                     }}
@@ -66,7 +83,7 @@ export const BannerHeader: React.FC<{ isDark: boolean }> = (props) => {
                       <a
                         className={classNames(
                           styles.subLink,
-                          isDark ?? styles.subLinkReversed,
+                          isDark ? styles.subLinkReversed : null,
                         )}
                         href="/careers/opportunities/"
                       >
@@ -78,7 +95,7 @@ export const BannerHeader: React.FC<{ isDark: boolean }> = (props) => {
                       <a
                         className={classNames(
                           styles.subLink,
-                          isDark ?? styles.subLinkReversed,
+                          isDark ? styles.subLinkReversed : null,
                         )}
                         href="/careers/culture/"
                       >
@@ -91,7 +108,11 @@ export const BannerHeader: React.FC<{ isDark: boolean }> = (props) => {
               </li>
               <li>
                 <a
-                  className={classNames(styles.navLink, styles.hasSubNav)}
+                  className={classNames(
+                    styles.navLink,
+                    styles.hasSubNav,
+                    isDark ? styles.navLinkReversed : null,
+                  )}
                   href="/"
                   onMouseEnter={() => {
                     setEnterWorkTitleBar(true);
@@ -107,7 +128,7 @@ export const BannerHeader: React.FC<{ isDark: boolean }> = (props) => {
                   <div
                     className={classNames(
                       styles.subMenu,
-                      isDark ?? styles.subMenuReversed,
+                      isDark ? styles.subMenuReversed : null,
                     )}
                     onMouseEnter={() => {
                       setEnterWorkSubMenu(true);
@@ -120,7 +141,7 @@ export const BannerHeader: React.FC<{ isDark: boolean }> = (props) => {
                       <a
                         className={classNames(
                           styles.subLink,
-                          isDark ?? styles.subLinkReversed,
+                          isDark ? styles.subLinkReversed : null,
                         )}
                         href="/ourwork/teams-leagues/"
                       >
@@ -132,7 +153,7 @@ export const BannerHeader: React.FC<{ isDark: boolean }> = (props) => {
                       <a
                         className={classNames(
                           styles.subLink,
-                          isDark ?? styles.subLinkReversed,
+                          isDark ? styles.subLinkReversed : null,
                         )}
                         href="/ourwork/leagues-media/"
                       >
@@ -144,22 +165,46 @@ export const BannerHeader: React.FC<{ isDark: boolean }> = (props) => {
                 )}
               </li>
               <li>
-                <a className={styles.navLink} href="/contact">
+                <a
+                  className={classNames(
+                    styles.navLink,
+                    isDark ? styles.navLinkReversed : null,
+                  )}
+                  href="/contact"
+                >
                   Contact
                 </a>
               </li>
               <li>
-                <a className={styles.navLink} href="/press">
+                <a
+                  className={classNames(
+                    styles.navLink,
+                    isDark ? styles.navLinkReversed : null,
+                  )}
+                  href="/press"
+                >
                   Press
                 </a>
               </li>
               <li>
-                <a className={styles.navLink} href="/videos">
+                <a
+                  className={classNames(
+                    styles.navLink,
+                    isDark ? styles.navLinkReversed : null,
+                  )}
+                  href="/videos"
+                >
                   Videos
                 </a>
               </li>
               <li>
-                <a className={styles.navLink} href="/login">
+                <a
+                  className={classNames(
+                    styles.navLink,
+                    isDark ? styles.navLinkReversed : null,
+                  )}
+                  href="/login"
+                >
                   Login in
                 </a>
               </li>

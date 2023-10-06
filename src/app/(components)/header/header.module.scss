@@ -74,6 +74,10 @@
   line-height: 24px;
 }
 
+.navLinkReversed {
+  color: #FFF;
+}
+
 .navLink:hover {
   color: #656c6d;
 }
@@ -111,6 +115,8 @@
 }
 
 .subLinkReversed {
+  color: #FFF;
+
   &:hover {
     background-color: #3c4041;
   }
