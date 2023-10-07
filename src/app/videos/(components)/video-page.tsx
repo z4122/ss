@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./video-page.module.scss";
 import classNames from "classnames";
 import { Video } from "@/app/videos/(components)/video";
+import { Cta } from "@/app/(components)/cta/cta";
 
 export const VideoPage: React<any> = () => {
   return (
@@ -88,38 +89,28 @@ export const VideoPage: React<any> = () => {
         </div>
 
         <div className={styles.ctaContainer}>
-          <div className={styles.cta}>
-            <div>
-              <h2 className={styles.sectionTitle}>Work with us</h2>
-              <p className={styles.sectionText}>
-                Are you team first? Do you embrace change? Enjoy audacious
-                endeavors? Consider joining our team!
-              </p>
-              <a className={styles.btnBlue} href="/careers/opportunities/">
-                {" "}
-                <span>View Opportunities </span>
-              </a>
-            </div>
-          </div>
+          <Cta
+            title={"Work with us"}
+            text={
+              "Are you team first? Do you embrace change? Enjoy audacious\n" +
+              "                endeavors? Consider joining our team!"
+            }
+            href={"/careers/opportunities/"}
+            hrefText={"View Opportunities "}
+          />
 
-          <div className={styles.cta}>
-            <div>
-              <h2 className={styles.sectionTitle}>Contact our team</h2>
-              <p className={styles.sectionText}>
-                Would you like to know more about Second Spectrum? Please reach
-                out with your questions.
-              </p>
-              <a className={styles.btnBlue} href="/contact/">
-                {" "}
-                <span>View Opportunities </span>
-              </a>
-            </div>
-          </div>
+          <Cta
+            title={"Contact our team"}
+            text={
+              "Would you like to know more about Second Spectrum? Please reach\n" +
+              "                out with your questions."
+            }
+            href={"/contact/"}
+            hrefText={"View Opportunities "}
+          />
         </div>
       </div>
-      <div className={styles.ctaPadding}>
-
-      </div>
+      <div className={styles.ctaPadding}></div>
     </div>
   );
 };

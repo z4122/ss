@@ -1,0 +1,135 @@
+
+.opportunitiesPage {
+  background-blend-mode: multiply, normal, normal;
+  background-position: 50% -60px, 50% -60px, 50% -60px;
+  background-image: url(https://a1.prod.2nd.io/website/public/assets/images/01Careers/01Opportunities/00Background/01Small/01Shapes.svg), url(https://a1.prod.2nd.io/website/public/assets/images/01Careers/01Opportunities/00Background/01Small/02Image.jpg), url(https://a1.prod.2nd.io/website/public/assets/images/01Careers/01Opportunities/00Background/01Small/03Back.svg);
+  background-repeat: no-repeat;
+  background-size: 767px 592px, 767px 538px, 767px 592px;
+}
+
+@media (min-width: 768px) {
+  .opportunitiesPage {
+    background-image: url(https://a1.prod.2nd.io/website/public/assets/images/01Careers/01Opportunities/00Background/02Medium/01Shapes.svg), url(https://a1.prod.2nd.io/website/public/assets/images/01Careers/01Opportunities/00Background/02Medium/02Image.jpg), url(https://a1.prod.2nd.io/website/public/assets/images/01Careers/01Opportunities/00Background/02Medium/03Back.svg);
+    background-size: 991px 776px, 991px 696px, 991px 776px;
+  }
+}
+
+@media (min-width: 992px) {
+  .opportunitiesPage {
+    background-blend-mode: normal, multiply, normal, normal;
+    background-image: url(https://a1.prod.2nd.io/website/public/assets/images/01Careers/01Opportunities/00Background/03Large/01Shapes.svg), url(https://a1.prod.2nd.io/website/public/assets/images/01Careers/01Opportunities/00Background/03Large/02Shapes.svg), url(https://a1.prod.2nd.io/website/public/assets/images/01Careers/01Opportunities/00Background/03Large/03Image.jpg), url(https://a1.prod.2nd.io/website/public/assets/images/01Careers/01Opportunities/00Background/03Large/04Back.svg);
+    background-size: 2560px 2071px, 2560px 2071px, 1920px 800px, 2560px 2071px;
+  }
+}
+
+.pageTitlePadding {
+  padding-top: 275px;
+  padding-bottom: 400px;
+}
+
+.opportunityListHeader {
+  font-family: Barlow,sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  margin-bottom: 40px;
+}
+
+.opportunitiesList {
+  padding-bottom: 50px
+}
+
+@media (min-width: 768px) {
+  .opportunitiesList {
+    padding-bottom:125px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 40px
+  }
+}
+
+
+.ctaContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-bottom: -160px;
+  z-index: 100;
+}
+
+.pageCta {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+  background: #fff;
+  border-radius: 0 0 2px 2px;
+  box-shadow: 0 8px 40px 0 rgba(34,35,36,.25);
+}
+
+@media (min-width: 768px) {
+  .pageCta {
+    padding:40px
+  }
+}
+
+.sectionTitle {
+  font-size: 26px;
+  line-height: 36px;
+  font-weight: 600;
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+  .sectionTitle {
+    font-size:32px;
+    line-height: 44px
+  }
+}
+
+.videoBtnBlueWrapper {
+  display: inline-flex;
+  background: #00afff;
+  border-radius: 3px 3px 3px 3px;
+  border: 1px solid #088cc8;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.videoBtnBlue {
+  align-items: center;
+  text-align: center;
+  font-family: Barlow, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-left: 8px;
+  padding: 8px 16px 8px 8px;
+  display: inline-flex;
+  color: #FFF;
+}
+
+.videoBtnBlue::before {
+  width: 24px;
+  height: 24px;
+  content: "";
+  background-image: url(https://a1.prod.2nd.io/website/public/assets/images/play-reversed.svg);
+  background-repeat: no-repeat;
+}
+
+.btnBlue {
+  color: #FFF;
+  display: inline-block;
+  background: #00afff;
+  border-radius: 3px 3px 3px 3px;
+  border: 1px solid #088cc8;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.2);
+  text-decoration: none;
+  padding: 8px 16px 8px 8px;
+}
+
+.ctaPadding {
+  padding-bottom: 260px;
+  width: 100%;
+  background: #f1f5f5;
+}

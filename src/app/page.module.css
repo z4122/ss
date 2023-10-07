@@ -256,3 +256,36 @@
     max-width: 944px;
   }
 }
+
+.pageTitle {
+  color: #FFF;
+  font-family: Barlow,sans-serif;
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 52px
+}
+
+@media (min-width: 768px) {
+  .pageTitle {
+    font-size:80px;
+    line-height: 88px;
+    margin-bottom: 48px
+  }
+}
+
+.btnBlue {
+  background: #00afff;
+  border-radius: 3px 3px 3px 3px;
+  border: 1px solid #088cc8;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.2);
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px 8px 8px;
+  color: #FFF;
+}
+
+.btnPlay {
+  display: inline-flex;
+  align-items: center;
+}
