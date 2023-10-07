@@ -289,3 +289,28 @@
   display: inline-flex;
   align-items: center;
 }
+
+
+.sectionTitle {
+  font-size: 26px;
+  line-height: 36px;
+  font-weight: 600;
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+  .sectionTitle {
+    font-size:32px;
+    line-height: 44px
+  }
+}
+
+.sectionHeader {
+  margin-bottom: 16px;
+  line-height: 28px;
+  color: #222324;
+  font-family: Barlow,sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}

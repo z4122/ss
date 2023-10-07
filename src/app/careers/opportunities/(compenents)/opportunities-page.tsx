@@ -103,7 +103,7 @@ export const OpportunitiesPage: React.FC = () => {
               height={200}
               src="https://a1.prod.2nd.io/website/public/assets/images/01Careers/01Opportunities/Graphic/TrackingSystem.svg"
             />
-            <h2 className={styles.sectionTitle}>
+            <h2 className={commonStyles.sectionTitle}>
               State-of-the-Art Sports Performance Software and Technologies
             </h2>
             <div>
@@ -120,7 +120,7 @@ export const OpportunitiesPage: React.FC = () => {
               height={200}
               src="https://a1.prod.2nd.io/website/public/assets/images/01Careers/01Opportunities/Graphic/VideoAugmentation.svg"
             />
-            <h2 className={styles.sectionTitle}>
+            <h2 className={commonStyles.sectionTitle}>
               Real-Time Automated Video Augmentation and Gamification
             </h2>
             <div>

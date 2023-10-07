@@ -1,0 +1,61 @@
+.cardListItem {
+  width: 288px;
+  position: relative;
+  margin-bottom: 40px
+}
+
+@media (min-width: 768px) {
+  .cardListItem {
+    width:300px;
+    margin-left: 60px
+  }
+}
+
+.cardListIcon {
+  display: none;
+  width: 40%;
+  margin-bottom: 30px
+}
+
+@media (min-width: 768px) {
+  .cardListIcon {
+    width:60px;
+    height: 60px;
+    display: block;
+    position: absolute;
+    left: -60px
+  }
+}
+
+@media (min-width: 992px) {
+  .cardListIcon {
+    display:block;
+    margin-bottom: 30px
+  }
+}
+
+.cardListHeader {
+  font-family: Barlow,sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px
+}
+
+@media (min-width: 768px) {
+  .cardListHeader {
+    font-size:18px
+  }
+}
+
+.cardListText {
+  font-family: Roboto,sans-serif;
+  font-size: 16px;
+  line-height: 24px
+}
+
+@media (min-width: 768px) {
+  .cardListHeader,.cardListText {
+    margin-right:30px;
+    margin-left: 30px
+  }
+}
