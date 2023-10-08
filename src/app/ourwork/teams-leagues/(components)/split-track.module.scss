@@ -1,0 +1,97 @@
+.splitTrack {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 120px;
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+
+.trackIcon {
+  width: 288px;
+  margin-top: 48px;
+}
+
+@media (min-width: 768px) {
+  .trackIcon {
+    width:360px
+  }
+}
+
+@media (min-width: 992px) {
+  .trackIcon {
+    width:400px
+  }
+}
+
+.splitText {
+  margin-bottom: 37px;
+  color: #FFF;
+}
+
+@media (min-width: 768px) {
+  .splitText {
+    width:340px
+  }
+}
+
+@media (min-width: 992px) {
+  .splitText {
+    width:370px
+  }
+}
+
+.trackImages {
+  height: 269px;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .trackImages {
+    height:415px;
+    order: 3;
+    width: 480px
+  }
+}
+
+@media (min-width: 992px) {
+  .trackImages {
+    height:547px
+  }
+}
+
+.trackImages::after {
+  width: 288px;
+  height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  display: block;
+  content: "";
+  background-image: url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/01ForTeams/04Tracking/01Small.png?background=transparent);
+  background-size: contain;
+  background-repeat: no-repeat
+}
+
+@media (min-width: 768px) {
+  .trackImages::after {
+    width:428px;
+    left: 82px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/01ForTeams/04Tracking/01Medium01.png?background=transparent)
+  }
+}
+
+@media (min-width: 992px) {
+  .trackImages::after {
+    width:644px;
+    background-image: url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/01ForTeams/04Tracking/01Large01.png?background=transparent);
+    left: 100px;
+    top: 280px
+  }
+}
+
+.colorReversed {
+  color: #FFF;
+}

@@ -1,0 +1,94 @@
+.splitInsights {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.textContainer {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+@media (min-width: 768px) {
+  .textContainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    order: 1;
+    width: 473px;
+    margin: 0 auto 80px
+  }
+}
+
+@media (min-width: 992px) {
+  .textContainer {
+    width:560px
+  }
+}
+
+.sectionTitle {
+  font-size: 41px;
+}
+
+@media (min-width: 768px) {
+  .sectionTitle {
+    max-width:400px;
+    text-align: center
+  }
+}
+
+@media (min-width: 992px) {
+  .sectionTitle {
+    max-width:380px
+  }
+}
+
+.insightsImages {
+  height: 240px;
+  position: relative;
+  margin-bottom: 80px;
+}
+
+@media (min-width: 768px) {
+  .insightsImages {
+    height:528px;
+    order: 2
+  }
+}
+
+@media (min-width: 992px) {
+  .insightsImages {
+    height:651px
+  }
+}
+
+.insightsImages:after {
+  width: 320px;
+  height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  display: block;
+  content: "";
+  background-image: url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/01ForTeams/03Insights/01Small.png?background=transparent);
+  background-size: contain;
+  background-repeat: no-repeat
+}
+
+@media (min-width: 768px) {
+  .insightsImages:after {
+    width:805px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/01ForTeams/03Insights/02Medium01.png?background=transparent)
+  }
+}
+
+@media (min-width: 992px) {
+  .insightsImages:after {
+    width:992px;
+    background-image: url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/01ForTeams/03Insights/02Medium01.png?background=transparent)
+  }
+}

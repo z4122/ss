@@ -1,0 +1,233 @@
+.TeamsLeaguesPage {
+  margin-top: 60px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: 50% -60px, 50% -60px;
+  background-image: url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/01ForTeams/00Background/01Small/01HeaderFront.jpg), url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/01ForTeams/00Background/01Small/02Back.svg);
+  background-size: 767px 438px, 784px 4993px
+}
+
+@media (min-width: 768px) {
+  .TeamsLeaguesPage {
+    background-position: 50% 0, 50% 0;
+    background-image: url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/01ForTeams/00Background/02Medium/01HeaderFront.jpg), url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/01ForTeams/00Background/02Medium/02Back.svg);
+    background-size: 991px 784px, 991px 4034px
+  }
+}
+
+@media (min-width: 992px) {
+  .TeamsLeaguesPage {
+    background-position: 50% -60px, 50% -60px;
+    background-image: url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/01ForTeams/00Background/03Large/01HeaderFront.jpg), url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/01ForTeams/00Background/03Large/02Back.svg);
+    background-size: 2560px 964px, 2560px 4901px
+  }
+}
+
+.pageTitle {
+  color: #222324;
+  font-family: Barlow, sans-serif;
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 52px
+}
+
+@media (min-width: 768px) {
+  .pageTitle {
+    font-size: 80px;
+    line-height: 88px;
+    margin-bottom: 40px;
+  }
+}
+
+.textContainer {
+  margin-bottom: 180px;
+}
+
+.textSection {
+  flex: 3;
+  padding-top: 166px;
+  padding-bottom: 166px;
+  margin-bottom: 37px;
+}
+
+@media (min-width: 768px) {
+  .textSection {
+    width: 340px;
+  }
+}
+
+@media (min-width: 992px) {
+  .textSection {
+    width: 370px;
+  }
+}
+
+.splitVideoImageContainer {
+  height: auto;
+  display: flex;
+  flex: 1;
+  max-width: 574px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.splitVideoImageWrapper {
+  height: 360px;
+  width: 100%;
+  position: relative;
+}
+
+.splitVideoImage {
+  position: absolute;
+  width: 274px;
+  height: 156px;
+}
+
+
+.splitVideoImage:first-child {
+  background-image: url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/01ForTeams/01Video/01Small1-2.jpg);
+  background-size: cover;
+  bottom: 40px;
+  right: -32px;
+  z-index: 2
+}
+
+@media (min-width: 768px) {
+  .splitVideoImage:first-child {
+    width: 592px;
+    height: 335px;
+    right: 44px;
+    bottom: -90px;
+    background-image: url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/01ForTeams/01Video/02Medium1-2.jpg)
+  }
+}
+
+@media (min-width: 992px) {
+  .splitVideoImage:first-child {
+    width: 885px;
+    height: 500px;
+    right: 70px;
+    bottom: -200px;
+    background-image: url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/01ForTeams/01Video/03Large1-2.jpg)
+  }
+}
+
+.splitVideoImage:last-child {
+  z-index: 1;
+  background-image: url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/01ForTeams/01Video/01Small2-2.jpg);
+  background-size: contain;
+  top: 40px;
+  left: -32px
+}
+
+@media (min-width: 768px) {
+  .splitVideoImage:last-child {
+    width: 592px;
+    height: 335px;
+    left: auto;
+    right: 112px;
+    top: -70px;
+    background-image: url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/01ForTeams/01Video/02Medium2-2.jpg)
+  }
+}
+
+@media (min-width: 992px) {
+  .splitVideoImage:last-child {
+    width: 883px;
+    height: 500px;
+    right: 220px;
+    top: -240px;
+    background-image: url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/01ForTeams/01Video/03Large2-2.jpg)
+  }
+}
+
+.splitVideoText {
+  margin-bottom: 37px;
+  flex: 3;
+}
+
+@media (min-width: 768px) {
+  .splitVideoText {
+    padding-right: 24px;
+  }
+}
+
+@media (min-width: 992px) {
+  .splitVideoText {
+    width: 370px;
+  }
+}
+
+@media (min-width: 768px) {
+  .splitVideoText {
+    width: 340px;
+  }
+}
+
+.videoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.videoItem {
+  position: relative
+}
+
+@media (min-width: 992px) {
+  .videoItem {
+    padding-left:84px
+  }
+}
+
+.videoIcon {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 64px;
+  height: 64px;
+}
+
+.videoHeading {
+  margin: 24px 0 16px;
+  color: #ff2249;
+  font-family: Barlow,sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.videoHeading::after {
+  content: "";
+  display: block;
+  position: relative;
+  height: 4px;
+  width: 80px;
+  margin-bottom: 6px;
+  margin-left: 4px;
+  background: #ff2249;
+}
+
+.headingInner {
+
+}
+
+.sectionTitle {
+  margin-bottom: 24px;
+}
+
+.ctaContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.ctaPadding {
+  padding-bottom: 140px;
+  width: 100%;
+  background: #f1f5f5;
+}
