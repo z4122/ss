@@ -1,0 +1,133 @@
+.splitMediaResearch {
+  display: flex;
+  flex-direction: column;
+  margin-top: 220px;
+  padding-bottom: 140px;
+  align-items: center;
+}
+
+.sectionImage {
+  height: 191px;
+}
+
+@media (min-width: 768px) {
+  .sectionImage {
+    height: 100px;
+  }
+}
+
+.sectionBackground {
+  height: 191px;
+  width: 411px;
+  background-image: url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/02ForLeaguesandMedia/03VideoResearchPlatform/01Small.png?background=transparent);
+  background-repeat: no-repeat;
+  background-size: 411px 191px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (min-width: 768px) {
+  .sectionBackground {
+    background-image: none
+  }
+}
+
+.sectionText {
+  width: 560px;
+  text-align: center;
+  color: #FFF;
+}
+
+.colorReversed {
+  color: #FFF;
+}
+
+.sectionImageBottomContainer {
+  width: 100%;
+  position: relative;
+}
+
+.sectionImageBottom {
+
+}
+
+@media (min-width: 768px) {
+  .sectionImageBottomContainer {
+    height: 350px
+  }
+
+  .sectionImageBottom {
+    height: 536px;
+    width: 992px;
+    position: absolute;
+    top: -140px;
+    left: -130px;
+    background-image: url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/02ForLeaguesandMedia/03VideoResearchPlatform/02Medium.png?background=transparent);
+    background-repeat: no-repeat;
+    background-size: 992px 536px
+  }
+}
+
+@media (min-width: 992px) {
+  .sectionImageBottom {
+    top: -220px;
+    left: 0;
+    height: 640px;
+    background-image: url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/02ForLeaguesandMedia/03VideoResearchPlatform/03Large.png?background=transparent);
+    background-position: 50% 68px
+  }
+}
+
+.sectionEntries {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+}
+
+.platformEntry {
+  display: flex;
+  flex-direction: row;
+  margin: 16px 8px;
+}
+
+.platformEntryImage {
+  display: flex;
+  align-items: center;
+  width: 72px;
+  height: 72px;
+}
+
+.platformEntryText {
+  display: flex;
+  align-items: center;
+  color: #FFF;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+@media (min-width: 768px) {
+  .platformEntryImage {
+    display: flex;
+    flex-direction: column;
+    padding-right: 16px;
+    flex: 1;
+  }
+
+  .platformEntryText {
+    text-align: center
+  }
+}
+
+@media (min-width: 992px) {
+  .platformEntryImage {
+    display: flex;
+    flex-direction: row;
+    padding-right: 16px;
+    flex: 1;
+  }
+
+  .platformEntryText {
+    text-align: left;
+  }
+}

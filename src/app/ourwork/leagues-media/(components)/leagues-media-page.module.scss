@@ -1,0 +1,36 @@
+.LeaguesMediaPage {
+  margin-top: 60px;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: 50% 18px,50% 0;
+  background-image: url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/02ForLeaguesandMedia/00Background/01Small/01HeaderFront.png?background=transparent),url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/02ForLeaguesandMedia/00Background/01Small/02Back.svg);
+  background-size: 175px 387px,767px 4008px
+}
+
+@media (min-width: 768px) {
+  .LeaguesMediaPage {
+    background-image:url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/02ForLeaguesandMedia/00Background/02Medium/01HeaderFront.png?background=transparent),url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/02ForLeaguesandMedia/00Background/02Medium/02Back.svg);
+    background-position: 100% 40px,50% 0;
+    background-size: 378px 840px,991px 3440px
+  }
+}
+
+@media (min-width: 992px) {
+  .LeaguesMediaPage {
+    background-position:70% 40px,50% -76px;
+    background-image: url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/02ForLeaguesandMedia/00Background/03Large/01HeaderFront.png?background=transparent),url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/02ForLeaguesandMedia/00Background/03Large/02Back.svg);
+    background-size: 470px 1049px,2560px 4366px
+  }
+}
+
+.ctaContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.ctaPadding {
+  padding-bottom: 140px;
+  width: 100%;
+  background: #222324;
+}

@@ -1,0 +1,61 @@
+.splitMedia {
+  padding-top: 430px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.splitMediaImageContainer {
+  position: relative;
+  height: 280px;
+  flex: 5;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.splitMediaImage {
+  position: absolute;
+  left: -128px;
+  bottom: 0;
+  width: 319px;
+  height: 248px;
+  background-image: url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/02ForLeaguesandMedia/01AugmentedVideo/01Small.png?background=transparent);
+  background-size: cover
+}
+
+@media (min-width: 768px) {
+  .splitMediaImage {
+    left:-380px;
+    bottom: -265px;
+    width: 635px;
+    height: 494px;
+    background-image: url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/02ForLeaguesandMedia/01AugmentedVideo/02Medium.png?background=transparent)
+  }
+}
+
+@media (min-width: 992px) {
+  .splitMediaImage {
+    left:-300px;
+    bottom: -190px;
+    width: 793px;
+    height: 618px;
+    background-image: url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/02ForLeaguesandMedia/01AugmentedVideo/03Large.png?background=transparent)
+  }
+}
+
+.splitMediaTextContainer {
+  flex: 3;
+}
+
+.textReversed {
+  color: #FFF;
+}
+
+.textPadding {
+  padding-top: 60px;
+  padding-bottom: 16px;
+}
+
+.btnPadding {
+  margin-top: 40px;
+}

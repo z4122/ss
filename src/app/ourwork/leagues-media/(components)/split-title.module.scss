@@ -1,0 +1,53 @@
+.splitTitle {
+  width: 336px;
+  position: relative;
+  padding-bottom: 96px;
+}
+
+.sectionImage {
+  width: 274px;
+  height: 92px;
+  background-image: url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/02ForLeaguesandMedia/00Background/LogoGarden_Small.png?background=transparent);
+  background-repeat: no-repeat;
+  background-size: 274px 92px;
+  position: absolute;
+  bottom: -50px;
+  left: -20px
+}
+
+@media (min-width: 768px) {
+  .sectionImage {
+    background-image:url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/02ForLeaguesandMedia/00Background/LogoGarden_Large-Medium.jpg);
+    width: 578px;
+    height: 66px;
+    left: -28px;
+    background-size: 578px 66px
+  }
+}
+
+@media (min-width: 992px) {
+  .sectionImage {
+    left:-32px
+  }
+}
+
+.splitPageTitle {
+  padding-top: 130px;
+  color: #fff;
+  font-family: Barlow,sans-serif;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 52px
+}
+
+@media (min-width: 768px) {
+  .splitPageTitle {
+    width:480px;
+    font-size: 76px;
+    line-height: 88px
+  }
+}
+
+.sectionTextReversed {
+  color: #FFF;
+}

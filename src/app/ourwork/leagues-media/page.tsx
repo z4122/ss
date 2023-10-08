@@ -8,7 +8,7 @@ export default function LeaguesMedia() {
     <div>
       <BannerHeader isDark={true} />
 
-       <LeaguesMediaPage />
+      <LeaguesMediaPage />
 
       <Footer isDark={true} />
     </div>

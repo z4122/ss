@@ -1,0 +1,59 @@
+.communicationSection {
+  display: flex;
+  padding-top: 200px;
+  align-items: center;
+}
+
+.sectionText {
+  padding-bottom: 200px;
+  width: 330px
+}
+
+.textReversed {
+  color: #FFF;
+}
+
+.sectionImageContainer {
+  position: relative;
+}
+
+.sectionImageWrapper {
+  height: 536px;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .sectionImageWrapper {
+    height:1183px;
+    top: -343px;
+    position: absolute;
+    left: -630px
+  }
+}
+
+.sectionImage {
+  height: 536px;
+  width: 554px;
+  background-image: url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/02ForLeaguesandMedia/02InteractiveApplications/01Small.png?background=transparent);
+  background-repeat: no-repeat;
+  background-size: 554px 536px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%)
+}
+
+@media (min-width: 768px) {
+  .sectionImage {
+    background-image:url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/02ForLeaguesandMedia/02InteractiveApplications/02Medium.png?background=transparent);
+    background-size: contain;
+    left: auto;
+    transform: none;
+    position: relative;
+    width: 1183px;
+    height: 1032px
+  }
+}
+
+.btnPadding {
+  margin-top: 40px;
+}

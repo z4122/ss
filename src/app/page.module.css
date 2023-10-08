@@ -339,3 +339,24 @@
         margin-bottom: 48px
     }
 }
+
+.videoBtnBlueWrapper {
+    display: inline-flex;
+    background: #00afff;
+    border-radius: 3px 3px 3px 3px;
+    border: 1px solid #088cc8;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.videoBtnBlue {
+    align-items: center;
+    text-align: center;
+    font-family: Barlow, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-left: 8px;
+    padding: 8px 16px 8px 8px;
+    display: inline-flex;
+    color: #FFF;
+}
