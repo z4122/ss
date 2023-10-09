@@ -13,7 +13,7 @@ export const TeamsLeaguesPage: React.FC<any> = () => {
     <div className={styles.TeamsLeaguesPage}>
       <div className={classNames(commonStyles.container, styles.textContainer)}>
         <div className={styles.textSection}>
-          <h1 className={commonStyles.pageTitle}>Win More Games.</h1>
+          <h1 className={classNames(commonStyles.pageTitle, commonStyles.pageTitleReversed)}>Win More Games.</h1>
           <p className={commonStyles.sectionHeader}>
             Video. Reports. Insights. Tracking.
           </p>

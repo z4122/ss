@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./split-report.module.scss";
 import commonStyles from "@/app/page.module.css";
+import classNames from "classnames";
 
 export const SplitReport: React<any> = () => {
   return (
@@ -9,7 +10,7 @@ export const SplitReport: React<any> = () => {
         <div className={styles.reportContainer}>
           <div>
             <p className={commonStyles.sectionHeader}> Reports</p>
-            <h2 className={commonStyles.sectionTitle}>
+            <h2 className={classNames(commonStyles.sectionTitle, styles.sectionTitle)}>
               {" "}
               Get reports the way you want them.
             </h2>

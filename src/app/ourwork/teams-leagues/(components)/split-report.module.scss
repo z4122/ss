@@ -12,17 +12,18 @@
 
 @media (min-width: 768px) {
   .reportContainer {
-    width:340px
+    width:340px;
   }
 }
 
 @media (min-width: 992px) {
   .reportContainer {
-    width:370px
+    width:370px;
   }
 }
 
 .reportImages {
+  max-width: 574px;
   width: 100%;
   height: 440px;
   text-align: center;
@@ -74,4 +75,8 @@
     transform: none;
     background-image: url(https://a1.prod.2nd.io/website/public/assets/images/03OurWork/01ForTeams/02Reports/03Large.png)
   }
+}
+
+.sectionTitle {
+  font-size: 38px;
 }

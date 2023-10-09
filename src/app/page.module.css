@@ -274,6 +274,10 @@
     }
 }
 
+.pageTitleReversed {
+    color: #222324;
+}
+
 .btnBlue {
     background: #00afff;
     border-radius: 3px 3px 3px 3px;
@@ -323,22 +327,6 @@
     font-weight: 400;
 }
 
-.pageTitle {
-    color: #222324;
-    font-family: Barlow, sans-serif;
-    margin-bottom: 40px;
-    font-weight: 700;
-    font-size: 46px;
-    line-height: 52px
-}
-
-@media (min-width: 768px) {
-    .pageTitle {
-        font-size: 80px;
-        line-height: 88px;
-        margin-bottom: 48px
-    }
-}
 
 .videoBtnBlueWrapper {
     display: inline-flex;
@@ -359,4 +347,13 @@
     padding: 8px 16px 8px 8px;
     display: inline-flex;
     color: #FFF;
+}
+
+.videoBtnBlue::before {
+    width: 24px;
+    height: 24px;
+    padding-right: 8px;
+    content: "";
+    background-image: url(https://a1.prod.2nd.io/website/public/assets/images/play-reversed.svg);
+    background-repeat: no-repeat;
 }

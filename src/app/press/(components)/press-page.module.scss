@@ -3,6 +3,22 @@
   margin-top: 60px;
   margin-left: 44px;
   margin-right: 44px;
+  background: url(https://a1.prod.2nd.io/website/public/assets/images/05Press/01List/00Background/01Small.svg) 50% 0 no-repeat;
+  background-size: 767px 1366px
+}
+
+@media (min-width: 768px) {
+  .pressPage {
+    background:url(https://a1.prod.2nd.io/website/public/assets/images/05Press/01List/00Background/02Medium.svg) 50% 0 no-repeat;
+    background-size: 991px 1734px
+  }
+}
+
+@media (min-width: 992px) {
+  .pressPage {
+    background:url(https://a1.prod.2nd.io/website/public/assets/images/05Press/01List/00Background/03Large.svg) 50% 0 no-repeat;
+    background-size: 2560px 2228px
+  }
 }
 
 .list {
@@ -166,4 +182,9 @@
   box-shadow: 0 1px 4px 0 rgba(0,0,0,.2);
   padding: 8px 16px;
   display: inline-block;
+  color: #222324;
+  font-family: Roboto,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
 }

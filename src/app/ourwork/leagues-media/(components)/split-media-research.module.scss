@@ -39,6 +39,12 @@
   color: #FFF;
 }
 
+.sectionTitle {
+  font-size: 41px;
+  line-height: 52px;
+  font-family: Barlow,sans-serif;
+}
+
 .colorReversed {
   color: #FFF;
 }
@@ -86,9 +92,11 @@
 }
 
 .platformEntry {
+  flex: 1;
   display: flex;
   flex-direction: row;
   margin: 16px 8px;
+  padding-right: 16px;
 }
 
 .platformEntryImage {
@@ -104,6 +112,9 @@
   color: #FFF;
   font-size: 20px;
   line-height: 28px;
+  font-weight: 400;
+  font-family: Roboto,sans-serif;
+  text-align: left;
 }
 
 @media (min-width: 768px) {

@@ -16,7 +16,7 @@ export const SplitCommunication: React.FC<any> = () => {
           Interactive Applications
         </div>
         <div
-          className={classNames(commonStyles.sectionTitle, styles.textReversed)}
+          className={classNames(commonStyles.sectionTitle, styles.sectionTitle, styles.textReversed)}
         >
           Next-Generation Content for Next-Generation Audiences.
         </div>

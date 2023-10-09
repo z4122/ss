@@ -21,6 +21,7 @@ export const SplitMediaResearch: React.FC<any> = () => {
         <div
           className={classNames(
             commonStyles.sectionTitle,
+            styles.sectionTitle,
             styles.colorReversed,
           )}
         >

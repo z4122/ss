@@ -9,7 +9,7 @@ export const SplitTrack: React.FC<any> = () => {
       <div className={styles.splitTrack}>
         <div className={styles.splitText}>
           <p className={classNames(commonStyles.sectionHeader, styles.colorReversed)}>Tracking</p>
-          <h2 className={commonStyles.sectionTitle}>
+          <h2 className={classNames(commonStyles.sectionTitle, styles.sectionTitle)}>
             Leverage the most advanced player tracking system in the world.
           </h2>
           <p className={classNames(commonStyles.sectionText, styles.colorReversed)}>

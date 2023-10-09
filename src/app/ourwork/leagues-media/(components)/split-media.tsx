@@ -20,7 +20,7 @@ export const SplitMedia: React<any> = () => {
           Augmented Video
         </div>
         <div
-          className={classNames(commonStyles.sectionTitle, styles.textReversed)}
+          className={classNames(commonStyles.sectionTitle, styles.sectionTitle, styles.textReversed)}
         >
           Reimagine the Sports Viewing Experience.
         </div>

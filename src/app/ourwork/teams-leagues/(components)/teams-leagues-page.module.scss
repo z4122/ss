@@ -151,18 +151,13 @@
 @media (min-width: 768px) {
   .splitVideoText {
     padding-right: 24px;
+    width: 340px;
   }
 }
 
 @media (min-width: 992px) {
   .splitVideoText {
     width: 370px;
-  }
-}
-
-@media (min-width: 768px) {
-  .splitVideoText {
-    width: 340px;
   }
 }
 
@@ -218,6 +213,8 @@
 
 .sectionTitle {
   margin-bottom: 24px;
+  font-family: Barlow,sans-serif;
+  font-size: 41px !important;
 }
 
 .ctaContainer {

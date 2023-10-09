@@ -10,7 +10,7 @@ export const CulturePage: React.FC = () => {
     <div className={styles.culturePage}>
       <div className={commonStyles.container}>
         <div className={styles.pageTitlePadding}>
-          <h1 className={classNames(commonStyles.pageTitle)}>Opportunities</h1>
+          <h1 className={classNames(commonStyles.pageTitle)}>Culture</h1>
           <div className={styles.videoBtnBlueWrapper}>
             <a
               className={styles.videoBtnBlue}
