@@ -93,10 +93,10 @@ export const Footer: React.FC<{ isDark: boolean }> = (props) => {
           <a href="/contact" className={styles.dnsSubheadingReversed}>
             Contact
           </a>
-          <a href="/press/index" className={styles.dnsSubheadingReversed}>
+          <a href="/press" className={styles.dnsSubheadingReversed}>
             Press
           </a>
-          <a href="/video" className={styles.dnsSubheadingReversed}>
+          <a href="/videos" className={styles.dnsSubheadingReversed}>
             Videos
           </a>
           <a href="/login" className={styles.dnsSubheadingReversed}>

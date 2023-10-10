@@ -11,10 +11,10 @@ export const BannerHeader: React.FC<{ isDark: boolean }> = (props) => {
   const [showCareersSubMenu, setShowCareersSubMenu] = React.useState(false);
   const [showWorkSubMenu, setShowWorkSubMenu] = React.useState(false);
 
-  const [enterCareerTitleBar, setEnterCareerTitleBar] = React.useState(true);
-  const [enterWorkTitleBar, setEnterWorkTitleBar] = React.useState(true);
-  const [enterCareerSubMenu, setEnterCareerSubMenu] = React.useState(true);
-  const [enterWorkSubMenu, setEnterWorkSubMenu] = React.useState(true);
+  const [enterCareerTitleBar, setEnterCareerTitleBar] = React.useState(false);
+  const [enterWorkTitleBar, setEnterWorkTitleBar] = React.useState(false);
+  const [enterCareerSubMenu, setEnterCareerSubMenu] = React.useState(false);
+  const [enterWorkSubMenu, setEnterWorkSubMenu] = React.useState(false);
 
   React.useEffect(() => {
     if (!enterCareerTitleBar && !enterCareerSubMenu) {
