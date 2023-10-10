@@ -11,7 +11,7 @@ export const PressPage: React.FC<any> = () => {
       <div className={classNames(commonStyles.container, styles.list)}>
         <h2 className={styles.pageTitle}>Press</h2>
         {/* eslint-disable-next-line react/no-unescaped-entities */}
-        <h5 className={styles.regHeading}>What's new</h5>
+        <h5 className={styles.regHeading}>What&apos;s new</h5>
         <h6 className={styles.pageTitleSecondary}>
           Latest News from <br /> Second Spectrum
         </h6>

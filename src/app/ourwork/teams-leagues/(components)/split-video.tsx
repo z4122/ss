@@ -4,7 +4,7 @@ import styles from "@/app/ourwork/teams-leagues/(components)/teams-leagues-page.
 import Image from "next/image";
 import React from "react";
 
-export const SplitVideo: React<any> = () => {
+export const SplitVideo: React.FC<any> = () => {
   return (
     <div className={classNames(commonStyles.container, styles.videoContainer)}>
       <div className={styles.splitVideoImageContainer}>
@@ -32,6 +32,7 @@ export const SplitVideo: React<any> = () => {
 
           <div className={styles.videoItem}>
             <Image
+              alt={''}
               height={64}
               width={64}
               src="https://a1.prod.2nd.io/website/public/assets/images/03OurWork/01ForTeams/01Video/Graphic/ImportVideo.svg"
@@ -48,6 +49,7 @@ export const SplitVideo: React<any> = () => {
 
           <div className={styles.videoItem}>
             <Image
+              alt={''}
               height={64}
               width={64}
               src="https://a1.prod.2nd.io/website/public/assets/images/03OurWork/01ForTeams/01Video/Graphic/FindVideosQuickly.svg"
@@ -66,6 +68,7 @@ export const SplitVideo: React<any> = () => {
 
           <div className={styles.videoItem}>
             <Image
+              alt={''}
               height={64}
               width={64}
               src="https://a1.prod.2nd.io/website/public/assets/images/03OurWork/01ForTeams/01Video/Graphic/ShareVideo.svg"

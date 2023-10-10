@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./header.module.scss";
 import classNames from "classnames";
 
-export const HeaderLogo: React.FC<{ className; isDark: boolean }> = (props) => {
+export const HeaderLogo: React.FC<{ className? :any; isDark: boolean }> = (props) => {
   return (
     <div className={classNames(styles.logo, props.className)}>
       <a href="/">
@@ -12,7 +12,6 @@ export const HeaderLogo: React.FC<{ className; isDark: boolean }> = (props) => {
           viewBox="0 0 161 24"
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
-          xlink="http://www.w3.org/1999/xlink"
         >
           <defs>
             <path

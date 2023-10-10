@@ -15,7 +15,7 @@ export const HomeCta: React.FC = () => {
       <div className={styles.sectionSplitText}>
         <h3 className={classNames(commonStyles.sectionHeader)}>Join Us</h3>
         <h2 className={classNames(commonStyles.sectionTitle)}>
-          We're excited to meet you!
+          We&apos;re excited to meet you!
         </h2>
       </div>
       <div className={styles.ctaButtons}>

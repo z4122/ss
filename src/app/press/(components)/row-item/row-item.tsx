@@ -1,7 +1,7 @@
 import React from "react";
 import commonStyles from "@/app/press/(components)/press-page.module.scss";
 
-export const RowItem: React<{
+export const RowItem: React.FC<{
   link: string;
   imageLink: string;
   text: string;

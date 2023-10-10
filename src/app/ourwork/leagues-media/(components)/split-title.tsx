@@ -3,7 +3,7 @@ import styles from "./split-title.module.scss";
 import commonStyles from "@/app/page.module.css";
 import classNames from "classnames";
 
-export const SplitTitle: React<any> = () => {
+export const SplitTitle: React.FC<any> = () => {
   return (
     <div className={styles.splitTitle}>
       <div

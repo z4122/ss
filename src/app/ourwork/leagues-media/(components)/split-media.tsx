@@ -3,7 +3,7 @@ import styles from "./split-media.module.scss";
 import commonStyles from "@/app/page.module.css";
 import classNames from "classnames";
 
-export const SplitMedia: React<any> = () => {
+export const SplitMedia: React.FC<any> = () => {
   return (
     <div className={styles.splitMedia}>
       <div className={styles.splitMediaImageContainer}>

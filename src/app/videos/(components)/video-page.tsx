@@ -4,7 +4,7 @@ import classNames from "classnames";
 import { Video } from "@/app/videos/(components)/video";
 import { Cta } from "@/app/(components)/cta/cta";
 
-export const VideoPage: React<any> = () => {
+export const VideoPage: React.FC<any> = () => {
   return (
     <div className={styles.videoPage}>
       <div className={styles.container}>

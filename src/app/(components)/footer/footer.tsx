@@ -8,8 +8,6 @@ import { HeaderLogo } from "@/app/(components)/header/logo";
 export const Footer: React.FC<{ isDark: boolean }> = (props) => {
   const { isDark } = props;
 
-  const ref = React.useRef(this);
-
   return (
     <div
       className={classNames(
@@ -24,7 +22,7 @@ export const Footer: React.FC<{ isDark: boolean }> = (props) => {
           isDark ? styles.footerReversed : null,
         )}
       >
-        <div className={isDark ? styles.titleReversed : styles.title} ref={ref}>
+        <div className={isDark ? styles.titleReversed : styles.title}>
           Contact Us
         </div>
 

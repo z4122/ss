@@ -3,7 +3,7 @@ import styles from "./split-report.module.scss";
 import commonStyles from "@/app/page.module.css";
 import classNames from "classnames";
 
-export const SplitReport: React<any> = () => {
+export const SplitReport: React.FC<any> = () => {
   return (
     <div className={commonStyles.container}>
       <div className={styles.splitReport}>
